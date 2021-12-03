@@ -1,0 +1,255 @@
+ul{
+    font-family: 'Arial';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav{ 
+    top:0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.92);  
+    height: 48px;  
+    max-height: 44px;
+    display: block;
+
+}
+
+.nav-link-description{
+    color: #2997ff;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    text-decoration: none;
+}
+
+.nav-container{
+    margin: 0 auto;
+    padding-left: 22px;
+    padding-right: 22px;
+    max-width: 980px;
+    position: relative;
+}
+
+ul{
+    margin: 0 -8px;
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: 13px;
+    line-height: 44px;
+    vertical-align: baseline;
+    letter-spacing: -0.12px;
+    word-spacing: 0px;
+    color : #f5f5f7;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+
+    text-align: left;
+    text-indent: 0px;
+
+}
+
+.shop-online{
+    display: flex;
+    justify-content: center;
+	font-size: 14px;
+	background-color: #fbfbfd;
+	color: #1d1d1f;
+    font-weight: 400;
+    text-decoration: rgb(29, 29, 31);
+    text-align: center;
+    text-indent: 0px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+
+}
+
+.shop-online span{
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 0;
+}
+
+.shop-online span a{
+    color : #06c;
+    text-decoration: none;
+}
+
+.iphone-13-Pro{
+    height: 580px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #fbfbfd;
+    background: url("../assets/hero-iphone13pro.jpg");
+    padding: 20px;
+    background-size: auto 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top:  .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-13{
+    height: 580px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: url("../assets/hero_iphone_13.jpg");
+    padding: 20px;
+   
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top:  .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-13 .text-content h2{
+    color:  white;
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.iphone-13 .text-content h3{
+    color:  white;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+
+.home-page-section{
+    display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 20px;
+
+}
+
+.section-div {
+    background: #fbfbfd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: #3333;
+    height: auto;
+    top: calc(var(--global-nav-collective-height) * -1);
+    margin-bottom: calc((var(--global-nav-collective-height) + var(--gutter-width)) * -1);
+}
+
+
+.section-div h2{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -.005em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.section-div h3{
+    margin-top: 5px;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+
+}
+
+
+.text-content{
+    text-align: center;
+}
+
+.text-content h2{
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.text-content h3{
+     font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+
+.apple-links{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.product-photo
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-photo img{
+    width: 700px;
+    height: auto;
+}
+
+#airpods-img{
+     width: 300px;
+    height: auto;
+}
+
+
+.image-wrapper{
+   background-image: url('./hero_iphone_13pro__dhnsegysa42u_large_2x.jpg');
+	width: 3010px;
+	height: 624px;
+	background-size: 3010px 624px;
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
